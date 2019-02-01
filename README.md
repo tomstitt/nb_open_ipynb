@@ -1,4 +1,4 @@
-# nb_open_obj
+# nb_open_ipynb
 
 Open ipynbs from urls or from files local to the notebook server.
 
@@ -6,5 +6,5 @@ Open ipynbs from urls or from files local to the notebook server.
 
 ```
 pip install .
-jupyter-serverextension enable --py nb_open_obj
+jupyter-serverextension enable --py nb_open_ipynb
 ```

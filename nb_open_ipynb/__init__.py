@@ -13,15 +13,15 @@ except ImportError:
 
 
 def _jupyter_server_extension_paths():
-    return [{"module": "nb_open_obj"}]
+    return [{"module": "nb_open_ipynb"}]
 
 
 def _jupyter_nbextension_paths():
     return [{
         "section": "tree",
         "src": "static",
-        "dest": "nb_open_obj",
-        "require": "nb_open_obj/index"
+        "dest": "nb_open_ipynb",
+        "require": "nb_open_ipynb/index"
     }]
 
 

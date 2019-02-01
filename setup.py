@@ -1,6 +1,6 @@
 import setuptools
 
-distname = "nb_open_obj"
+distname = "nb_open_ipynb"
 
 setuptools.setup(
     name=distname,
