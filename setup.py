@@ -1,6 +1,6 @@
 import setuptools
 
-distname = "nb_open_url"
+distname = "nb_open_obj"
 
 setuptools.setup(
     name=distname,

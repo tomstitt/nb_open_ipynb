@@ -4,11 +4,9 @@ define(['base/js/utils', 'base/js/dialog'], function(utils, dialog) {
   var base_url = utils.get_body_data('baseUrl');
 
   function open_external_ipynb(nb_url) {
-    var url = utils.url_path_join(base_url, 'fromurl/') + nb_url;
-    var w = window.open('', '_blank');
-    w.location = url;
+    var url = utils.url_path_join(base_url, 'openurl') + "?url=" + nb_url;
+    window.open(url);
   }
-
 
   function show_modal() {
     dialog.modal({
@@ -29,7 +27,6 @@ define(['base/js/utils', 'base/js/dialog'], function(utils, dialog) {
       }
     });
   }
-
 
   return {
     load_ipython_extension: function() {
