@@ -2,7 +2,6 @@ import os
 import json
 from notebook.utils import url_path_join, url_escape
 from notebook.base.handlers import IPythonHandler
-from notebook.notebook.handlers import get_custom_frontend_exporters
 import shutil
 from tornado.web import MissingArgumentError
 
